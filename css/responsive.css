@@ -1,0 +1,105 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 320px) {
+  .header-top .logo img {
+    width: 100%;
+  }
+  .search-bar,
+  .header-icon {
+    display: none;
+  }
+  .about-card {
+    flex-direction: column;
+  }
+  .about-card-img {
+    margin-bottom: 5%;
+  }
+  .enjoy-shop .slider-btn {
+    padding: 5% 10%;
+  }
+  .project-section .project-img {
+    margin-bottom: 5%;
+  }
+  footer {
+    text-align: center;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 412px) {
+  .header-top .logo img {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+  .about-card-img {
+    margin-bottom: 5%;
+  }
+  .about-card {
+    flex-direction: column;
+  }
+  .search-bar,
+  .header-icon {
+    display: none;
+  }
+  .slider-btn {
+  }
+  .project-section .project-img {
+    margin-bottom: 5%;
+  }
+}
+
+@media (min-width: 413px) and (max-width: 575px) {
+  .header-top .logo img {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+  .about-card-img {
+    margin-bottom: 5%;
+  }
+  .about-card {
+    flex-direction: column;
+  }
+  .search-bar,
+  .header-icon {
+    display: none;
+  }
+  .project-section .project-img {
+    margin-bottom: 5%;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header-top {
+    background-color: rgb(255, 255, 255);
+    margin: 20px 0px;
+  }
+  .header-top-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header-top .logo {
+    width: 100%;
+  }
+
+  .search-bar {
+    display: none;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1134px) {
+}
+
+@media (min-width: 1135px) and (max-width: 1199.98px) {
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) and (max-width: 1475px) {
+}
