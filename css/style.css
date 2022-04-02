@@ -405,7 +405,7 @@ h2 {
   padding: 5% 3%;
   margin: 0% 1%;
   box-sizing: border-box;
-  box-shadow: grey 0px 0px 6px 3px;
+  box-shadow: rgb(105, 105, 105) 0px 0px 6px 3px;
 }
 .about-card-img:hover {
   border-radius: 15px;
